@@ -11,8 +11,7 @@ int temp = *x;
 *y = temp;
 }
 /**
- *bubble_sort - sorts an array of integers in ascending order using
-the Bubble sort algorithm
+ *bubble_sort - sorts an array of integers in ascending order
  *@array: the array to be sorted
  *@size: the size of the array
  */
