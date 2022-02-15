@@ -22,6 +22,8 @@ node1->prev = node2;
 void insertion_sort_list(listint_t **list)
 {
 listint_t *h, *n;
+if (list == NULL || *list == NULL)
+return;
 h = *list;
 while (h)
 {
