@@ -67,5 +67,7 @@ qs(array, p + 1, h, size);
 void quick_sort(int *array, size_t size)
 {
 int l = 0, h = size - 1;
+if (size < 1)
+return;
 qs(array, l, h, size);
 }
